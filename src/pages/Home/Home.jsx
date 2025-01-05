@@ -2,6 +2,7 @@ import NavBar from "../../components/NavBar";
 import About from "./About";
 import Hero from "./Hero";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero></Hero>
       <About></About>
       <Skills></Skills>
+      <Projects></Projects>
     </div>
   );
 };

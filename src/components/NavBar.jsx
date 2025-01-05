@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AwesomeButton } from "react-awesome-button";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [theme, setTheme] = useState(
@@ -24,10 +24,28 @@ const NavBar = () => {
   const links = (
     <>
       <li>
-        <NavLink to={"/"}>Home</NavLink>
+        <a
+          href="#home"
+          className="navlink"
+        >
+          Home
+        </a>
       </li>
       <li>
-        <NavLink to={"/about"}>About Me</NavLink>
+        <a
+          href="#about"
+          className="navlink"
+        >
+          About Me
+        </a>
+      </li>
+      <li>
+        <a
+          href="#projects"
+          className="navlink"
+        >
+          Projects
+        </a>
       </li>
     </>
   );
