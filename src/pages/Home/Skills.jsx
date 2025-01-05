@@ -33,7 +33,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="max-w-7xl mx-auto mt-10 max-sm:px-10"
+      className="max-w-7xl mx-auto mt-10 max-sm:px-10 pb-10"
     >
       <motion.h2
         className="text-4xl font-bold text-gray-800 dark:text-white text-center mb-12"
