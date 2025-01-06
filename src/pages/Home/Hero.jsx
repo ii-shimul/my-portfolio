@@ -2,11 +2,11 @@ import { Typewriter } from "react-simple-typewriter";
 import hero from "../../assets/hero.png";
 import ParticlesComponent from "../../components/ParticlesBG";
 import { AwesomeButton } from "react-awesome-button";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="max-w-7xl mx-auto max-sm:px-10 max-sm:pt-5 relative">
+    <div className="max-w-7xl mx-auto max-sm:px-10 max-sm:py-5 relative">
       <ParticlesComponent id="heroBG" />
       <div className="gap-10 flex justify-center items-center">
         <div>
@@ -48,6 +48,7 @@ const Hero = () => {
               href="https://github.com/ii-shimul"
               target="_blank"
               rel="noreferrer"
+              className="hover:scale-110 transition"
             >
               <FaGithub />
             </a>
@@ -55,6 +56,7 @@ const Hero = () => {
               href="https://www.linkedin.com/in/injamamul-islam-shimul-00895711a/"
               target="_blank"
               rel="noreferrer"
+              className="hover:scale-110 transition"
             >
               <FaLinkedin />
             </a>
@@ -62,8 +64,17 @@ const Hero = () => {
               href="https://www.facebook.com/zahannami"
               target="_blank"
               rel="noreferrer"
+              className="hover:scale-110 transition"
             >
               <FaFacebook />
+            </a>
+            <a
+              href="mailto:islamshimul27@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:scale-110 transition"
+            >
+              <FaEnvelope />
             </a>
           </div>
         </div>

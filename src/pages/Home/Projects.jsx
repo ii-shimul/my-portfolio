@@ -27,7 +27,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="py-20 px-3 md:px-20 bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900"
+      className="md:py-16 py-10 px-3 md:px-20 bg-gradient-to-b from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900"
     >
       <motion.h2
         className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12"

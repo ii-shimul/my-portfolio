@@ -36,7 +36,7 @@ const NavBar = () => {
           href="#about"
           className="navlink"
         >
-          About Me
+          About
         </a>
       </li>
       <li>
@@ -45,6 +45,22 @@ const NavBar = () => {
           className="navlink"
         >
           Projects
+        </a>
+      </li>
+      <li>
+        <a
+          href="#skills"
+          className="navlink"
+        >
+          Skills
+        </a>
+      </li>
+      <li>
+        <a
+          href="#contact"
+          className="navlink"
+        >
+          Contact
         </a>
       </li>
     </>
@@ -105,7 +121,7 @@ const NavBar = () => {
           </svg>
         </label>
         <a href="https://docs.google.com/document/d/16a-iSzYlf_lbERmWbhpvTmEoOoGuNfCiRsGv5x6RowU/edit?usp=sharing" target="_blank" rel="noreferrer">
-          <AwesomeButton>Download Resume</AwesomeButton>
+          <AwesomeButton>Resume</AwesomeButton>
         </a>
       </div>
     </div>

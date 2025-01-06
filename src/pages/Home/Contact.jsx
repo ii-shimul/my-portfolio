@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="py-20 px-10 md:px-20 bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800"
+      className="py-10 md:py-16 px-10 md:px-20 bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800"
     >
       <h2 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-8">
         Contact Me

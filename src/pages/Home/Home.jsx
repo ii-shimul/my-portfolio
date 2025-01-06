@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Headroom from "react-headroom";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };
