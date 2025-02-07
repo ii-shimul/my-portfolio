@@ -24,7 +24,7 @@ const NavBar = () => {
     <>
       <li>
         <a
-          href="#home"
+          href="/#home"
           className="navlink"
         >
           Home
@@ -32,7 +32,7 @@ const NavBar = () => {
       </li>
       <li>
         <a
-          href="#about"
+          href="/#about"
           className="navlink"
         >
           About
@@ -40,7 +40,7 @@ const NavBar = () => {
       </li>
       <li>
         <a
-          href="#projects"
+          href="/#projects"
           className="navlink"
         >
           Projects
@@ -48,7 +48,7 @@ const NavBar = () => {
       </li>
       <li>
         <a
-          href="#skills"
+          href="/#skills"
           className="navlink"
         >
           Skills
@@ -56,7 +56,7 @@ const NavBar = () => {
       </li>
       <li>
         <a
-          href="#contact"
+          href="/#contact"
           className="navlink"
         >
           Contact
