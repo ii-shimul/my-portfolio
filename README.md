@@ -42,7 +42,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 If you have any questions or want to get in touch, feel free to reach out:
 
 - **Email**: islamshimul27@gmail.com
-- **LinkedIn**: [My LinkedIn Profile](linkedin.com/in/injamamul-islam-shimul-00895711a)
+- **LinkedIn**: [My LinkedIn Profile](https://linkedin.com/in/ii-shimul)
 - **Website**: [Portfolio Live Link](https://ii-shimul.vercel.app/)
 
 ---

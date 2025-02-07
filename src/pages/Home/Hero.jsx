@@ -53,7 +53,7 @@ const Hero = () => {
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/injamamul-islam-shimul-00895711a/"
+              href="https://linkedin.com/in/ii-shimul"
               target="_blank"
               rel="noreferrer"
               className="hover:scale-110 transition"

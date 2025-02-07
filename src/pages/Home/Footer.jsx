@@ -44,7 +44,7 @@ const Footer = () => {
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/injamamul-islam-shimul-00895711a/"
+              href="https://linkedin.com/in/ii-shimul"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:text-white transition text-2xl"
