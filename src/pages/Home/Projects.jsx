@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const projects = [
   {
+    id: "shareplate",
     title: "Food Sharing Website",
     description:
       "A platform that connects people to share excess food with those in need.",
@@ -9,15 +11,16 @@ const projects = [
     link: "https://shareplate-72dea.web.app/",
   },
   {
+    id: "movie-mania",
     title: "Adventure Website",
     description: "A modern, responsive adventure website built with React.",
     technologies: ["React", "Framer Motion", "Tailwind CSS"],
     link: "https://ocean-xplorer.web.app/",
   },
   {
+    id: "ocean-xplorer",
     title: "Movie Store",
-    description:
-      "A full-stack movie platform with user authentication.",
+    description: "A full-stack movie platform with user authentication.",
     technologies: ["React", "Express", "Stripe", "MongoDB"],
     link: "https://moviemania-660e7.web.app/",
   },
@@ -71,10 +74,17 @@ const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="px-4 py-2 mb-2 bg-blue-600 rounded text-white hover:bg-blue-700 transition"
+              >
+                Live Link
+              </a>
+              <Link
+                to={`/details/${project.id}`}
+                rel="noopener noreferrer"
                 className="px-4 py-2 bg-blue-600 rounded text-white hover:bg-blue-700 transition"
               >
-                View Project
-              </a>
+                Details
+              </Link>
             </div>
           </motion.div>
         ))}
