@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { AwesomeButton } from "react-awesome-button";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [theme, setTheme] = useState(
@@ -91,12 +92,12 @@ const NavBar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">
+        <Link to={"/"} className="btn btn-ghost text-xl">
           <img className="h-6" src={"/logo.png"} alt="" />
           <span className="code md:text-3xl font-bold bg-gradient-to-r from-blue-700 via-teal-500 to-blue-400 bg-clip-text text-transparent">
             &lt;bax/&gt;
           </span>
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
