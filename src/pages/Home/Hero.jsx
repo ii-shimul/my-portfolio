@@ -37,7 +37,7 @@ const Hero = () => {
             something amazing with you.
           </p>
           <a
-            href="https://docs.google.com/document/d/16a-iSzYlf_lbERmWbhpvTmEoOoGuNfCiRsGv5x6RowU/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1L9RtLJ06WGUfuBMuUxhc4eGXCVhAiBBS/view"
             target="_blank"
             rel="noreferrer"
           >
