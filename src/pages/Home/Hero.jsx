@@ -1,7 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import hero from "../../assets/hero.png";
 import herosmall from "../../assets/picofme.png";
-
 import ParticlesComponent from "../../components/ParticlesBG";
 import { AwesomeButton } from "react-awesome-button";
 import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -25,7 +24,7 @@ const Hero = () => {
             I am a{" "}
             <span className="bg-gradient-to-r from-[#388d9b] via-[#388d9b] to-[#358a98] bg-clip-text text-transparent">
               <Typewriter
-                words={["Web Developer", "Designer", "Coder"]}
+                words={["Web Developer", "CSE Student", "Programmer"]}
                 loop={true}
                 speed={200}
                 cursor={true}

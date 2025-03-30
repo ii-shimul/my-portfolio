@@ -7,7 +7,7 @@ const projects = [
 		title: "Hostel Management",
 		description:
 			"A modern, responsive hostel management website built with React.",
-		technologies: ["React", "Framer Motion", "Stripe", "Tailwind CSS"],
+		technologies: ["React", "Node.js" , "Firebase", "Material UI", "MongoDB", "Stripe"],
 		link: "https://hostelmate-b7e8e.web.app/",
 	},
 	{
@@ -15,7 +15,7 @@ const projects = [
 		title: "Food Sharing Website",
 		description:
 			"A platform that connects people to share excess food with those in need.",
-		technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+		technologies: ["React", "Node.js", "MongoDB", "Tailwind"],
 		link: "https://shareplate-72dea.web.app/",
 	},
 
@@ -43,7 +43,7 @@ const Projects = () => {
 				My Projects
 			</motion.h2>
 
-			<div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+			<div className="max-w-7xl mx-auto max-sm:px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 				{projects.map((project, index) => (
 					<motion.div
 						key={index}
@@ -61,7 +61,7 @@ const Projects = () => {
 
 						<div className="absolute inset-0 bg-black bg-opacity-50 text-white p-6 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
 							<h3 className="text-2xl font-bold mb-4">{project.title}</h3>
-							<p className="text-sm mb-4">{project.description}</p>
+							<p className="text-sm mb-4 text-center">{project.description}</p>
 							<div className="flex flex-wrap justify-center gap-2 mb-4">
 								{project.technologies.map((tech, idx) => (
 									<span
@@ -72,21 +72,23 @@ const Projects = () => {
 									</span>
 								))}
 							</div>
-							<a
-								href={project.link}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="px-4 py-2 mb-2 bg-blue-600 rounded text-white hover:bg-blue-700 transition"
-							>
-								Live Link
-							</a>
-							<Link
-								to={`/details/${project.id}`}
-								rel="noopener noreferrer"
-								className="px-4 py-2 bg-blue-600 rounded text-white hover:bg-blue-700 transition"
-							>
-								Details
-							</Link>
+							<div className="flex justify-center items-center gap-3">
+								<a
+									href={project.link}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="btn border-none bg-blue-600"
+								>
+									Live Link
+								</a>
+								<Link
+									to={`/details/${project.id}`}
+									rel="noopener noreferrer"
+									className="btn btn-soft"
+								>
+									Details
+								</Link>
+							</div>
 						</div>
 					</motion.div>
 				))}

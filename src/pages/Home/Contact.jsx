@@ -16,7 +16,7 @@ const Contact = () => {
         "portfolio",
         "portfolio-template",
         form.current,
-        "ybVKvXmnjPo8qTeNG" // Replace with your EmailJS Public Key
+        "ybVKvXmnjPo8qTeNG" 
       )
       .then(
         (result) => {
@@ -34,7 +34,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="py-10 md:py-16 px-10 md:px-20 bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800"
+      className="py-10 md:py-12 px-6 bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800"
     >
       <h2 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-8">
         Contact Me
@@ -45,8 +45,7 @@ const Contact = () => {
         back to you as soon as possible.
       </p>
 
-      <div className="flex flex-col md:flex-row justify-center items-center gap-10">
-        {/* Contact Form */}
+      <div className="flex flex-col md:flex-row max-w-7xl mx-auto justify-center items-center gap-10">
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -101,7 +100,6 @@ const Contact = () => {
           </button>
         </form>
 
-        {/* Contact Info */}
         <div className="w-full max-w-lg bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
             Get in Touch
