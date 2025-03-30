@@ -2,28 +2,30 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const projects = [
-  {
-    id: "shareplate",
-    title: "Food Sharing Website",
-    description:
-      "A platform that connects people to share excess food with those in need.",
-    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    link: "https://shareplate-72dea.web.app/",
-  },
-  {
-    id: "movie-mania",
-    title: "Adventure Website",
-    description: "A modern, responsive adventure website built with React.",
-    technologies: ["React", "Framer Motion", "Tailwind CSS"],
-    link: "https://ocean-xplorer.web.app/",
-  },
-  {
-    id: "ocean-xplorer",
-    title: "Movie Store",
-    description: "A full-stack movie platform with user authentication.",
-    technologies: ["React", "Express", "Stripe", "MongoDB"],
-    link: "https://moviemania-660e7.web.app/",
-  },
+	{
+		id: "hostelmate",
+		title: "Hostel Management",
+		description:
+			"A modern, responsive hostel management website built with React.",
+		technologies: ["React", "Framer Motion", "Stripe", "Tailwind CSS"],
+		link: "https://hostelmate-b7e8e.web.app/",
+	},
+	{
+		id: "shareplate",
+		title: "Food Sharing Website",
+		description:
+			"A platform that connects people to share excess food with those in need.",
+		technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+		link: "https://shareplate-72dea.web.app/",
+	},
+
+	{
+		id: "ocean-xplorer",
+		title: "Ocean Xplorer",
+		description: "A frontend focused sea adventure website.",
+		technologies: ["React", "Tailwind", "Firebase", "Framer Motion"],
+		link: "https://ocean-xplorer.web.app/",
+	},
 ];
 
 const Projects = () => {
