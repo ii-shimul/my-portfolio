@@ -1,5 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import hero from "../../assets/hero.png";
+import herosmall from "../../assets/picofme.png";
+
 import ParticlesComponent from "../../components/ParticlesBG";
 import { AwesomeButton } from "react-awesome-button";
 import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -8,7 +10,10 @@ const Hero = () => {
   return (
     <div className="max-w-7xl mx-auto max-sm:px-10 max-sm:py-5 relative">
       <ParticlesComponent id="heroBG" />
-      <div className="gap-10 flex justify-center items-center">
+      <div className="gap-10 flex justify-center items-center max-md:flex-col">
+        <div className="md:hidden">
+          <img src={herosmall} alt="" />
+        </div>
         <div>
           <h1>
             <span className="text-lg md:text-2xl">Hello, I am</span> <br />
@@ -33,7 +38,7 @@ const Hero = () => {
             I design and develop modern, responsive websites that bring your
             ideas to life. As a passionate learner and tech enthusiast, I
             continuously improve my skills to stay ahead in the field. With a
-            focus on innovation and user experience, I'm ready to help create
+            focus on innovation and user experience, I&apos;m ready to help create
             something amazing with you.
           </p>
           <a
