@@ -28,7 +28,7 @@ const Skills = () => {
   return (
     <div id="skills" className="max-w-6xl mx-auto mt-10 max-sm:px-5 pb-10">
       <motion.h2
-        className="text-4xl font-bold text-gray-800 dark:text-white text-center mb-12"
+        className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white text-center mb-12"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}

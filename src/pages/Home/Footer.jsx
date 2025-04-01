@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const Footer = () => {
 	return (
 		<div className="bg-base-300">
-			<footer className="footer sm:footer-horizontal text-base-content items-center p-4 max-w-7xl mx-auto">
+			<footer className="footer sm:footer-horizontal max-sm:gap-3 text-base-content items-center p-4 max-w-7xl mx-auto">
 				<aside className="grid-flow-col items-center">
 					<svg
 						width="36"
@@ -18,7 +18,7 @@ const Footer = () => {
 					</svg>
 					<p>Copyright © {new Date().getFullYear()} - All right reserved</p>
 				</aside>
-				<nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+				<nav className="flex justify-center items-center max-sm:w-full md:grid-flow-col gap-4 md:place-self-center md:justify-self-end">
 					<a
 						href="https://github.com/ii-shimul"
 						target="_blank"

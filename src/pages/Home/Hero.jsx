@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <div className="max-w-7xl mx-auto max-sm:px-10 max-sm:py-5 relative">
       <ParticlesComponent id="heroBG" />
-      <div className="gap-10 flex justify-center items-center max-md:flex-col">
-        <div className="md:hidden">
+      <div className="flex justify-between items-center max-md:flex-col">
+        <div className="md:hidden mb-5">
           <img src={herosmall} alt="" />
         </div>
         <div>
@@ -33,7 +33,7 @@ const Hero = () => {
               />
             </span>
           </p>
-          <p className="max-w-2xl mb-3">
+          <p className="max-w-2xl mb-3 text-sm md:text-base">
             I design and develop modern, responsive websites that bring your
             ideas to life. As a passionate learner and tech enthusiast, I
             continuously improve my skills to stay ahead in the field. With a

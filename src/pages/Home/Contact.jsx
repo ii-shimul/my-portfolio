@@ -36,16 +36,16 @@ const Contact = () => {
       id="contact"
       className="py-10 md:py-12 px-6 bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800"
     >
-      <h2 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-4 md:mb-8">
         Contact Me
       </h2>
 
-      <p className="text-center mb-10 text-gray-600 dark:text-gray-300">
+      <p className="max-sm:text-sm text-center mb-5 md:mb-8 text-gray-600 dark:text-gray-300">
         Have questions or want to collaborate? Send me a message, and I'll get
         back to you as soon as possible.
       </p>
 
-      <div className="flex flex-col md:flex-row max-w-7xl mx-auto justify-center items-center gap-10">
+      <div className="flex flex-col md:flex-row max-w-7xl mx-auto justify-center items-center gap-5 md:gap-10">
         <form
           ref={form}
           onSubmit={sendEmail}
